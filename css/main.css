@@ -25,4 +25,16 @@ section {
 
 .dipper {
 	width: 300px;
+	opacity: 0;
+}
+
+/* Do not forget to put in all the prefixes */
+
+@-webkit-keyframes dipper-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
