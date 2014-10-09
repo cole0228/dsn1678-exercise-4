@@ -3,5 +3,5 @@ var $sun = $('.sun');
 
 $win.on('scroll', function(){
 	var scrollPos = $win.scrollTop();
-	console.log(scrollPos);
+
 })
