@@ -28,6 +28,10 @@ section {
 	opacity: 0;
 }
 
+.js-dipper-fade {
+	--webkit-animation: dipper-fade 1s linear
+}
+
 /* Do not forget to put in all the prefixes */
 
 @-webkit-keyframes dipper-fade {
