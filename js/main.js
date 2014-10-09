@@ -1,6 +1,7 @@
 var $win = $(window);
 var $sun = $('.sun');
 var $sunSection = $('.sun-section');
+var $dipper
 
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
