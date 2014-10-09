@@ -2,5 +2,6 @@ var $win = $(window);
 var $sun = $('.sun');
 
 $win.on('scroll', function(){
-	console.log('Scrolling!');
+	var scrollPos = $win.scrollTop();
+	console.log(scrollPos);
 })
