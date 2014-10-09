@@ -13,4 +13,4 @@ $win.on('scroll', function () {
 
 $dipperSection.waypoint(function () {
 	console.log('Scrolled to!');
-});
+}, { offset: '50%'});
