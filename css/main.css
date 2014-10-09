@@ -29,6 +29,7 @@ section {
 }
 
 .js-dipper-fade {
+	/* Do not forget to put in all the prefixes */
 	--webkit-animation: dipper-fade 1s linear
 }
 
